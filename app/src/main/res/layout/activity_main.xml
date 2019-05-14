@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
+    android:paddingTop="8dp"
     >
 
   <TextView
@@ -31,8 +32,9 @@
       app:easy_item_left_tv_str="标签"
       app:easy_item_left_tv_text_color="@color/colorAccent"
       app:easy_item_left_tv_text_size="13dp"
-      app:easy_item_right_edt_hint="请输入请输入请输入请输入请输入请输入请输入请输入请输入请输入请输入"
+      app:easy_item_line_bottom_color="@color/colorPrimaryDark"
 
+      app:easy_item_right_edt_hint="请输入请输入请输入请输入请输入请输入请输入请输入请输入请输入请输入"
       app:easy_item_right_edt_margin_right_iv="20dp"
       app:easy_item_right_edt_margin_right_parent="30dp"
       app:easy_item_right_edt_max_lines="3"
@@ -41,14 +43,22 @@
       app:easy_item_right_edt_text_color="@color/colorPrimary"
       app:easy_item_right_edt_text_size="10dp"
       app:easy_item_right_edt_width="0dp"
-      app:easy_item_right_iv_margin_right="4dp"
 
+      app:easy_item_right_iv_margin_right="4dp"
       app:easy_item_right_iv_size="40dp"
       app:easy_item_right_iv_src="@mipmap/ic_launcher"
-      app:layout_constraintLeft_toLeftOf="parent"
 
+      app:easy_item_line_bottom_dash_gap="3dp"
+      app:easy_item_line_bottom_dash_width="3dp"
+      app:easy_item_line_bottom_visible="true"
+
+      app:easy_item_line_top_color="@color/colorPrimary"
+      app:easy_item_line_top_height="3dp"
+      app:easy_item_line_top_visible="true"
       app:layout_constraintRight_toRightOf="parent"
-      app:layout_constraintTop_toTopOf="parent"
+
       app:easy_item_left_tv_text_style="bold"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
       />
 </android.support.constraint.ConstraintLayout>
