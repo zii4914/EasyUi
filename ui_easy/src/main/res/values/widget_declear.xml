@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="EasyItem">
+    <!--left iv-->
+    <attr name="easy_item_left_iv_margin_left" format="dimension"/>
+    <attr name="easy_item_left_iv_src" format="reference"/>
+    <attr name="easy_item_left_iv_size" format="dimension"/>
+    <!--left tv-->
+    <attr name="easy_item_left_tv_str" format="string"/>
+    <attr name="easy_item_left_tv_text_color" format="color"/>
+    <attr name="easy_item_left_tv_text_size" format="dimension"/>
+    <attr name="easy_item_left_tv_margin_iv" format="dimension"/>
+    <attr name="easy_item_left_tv_margin_parent" format="dimension"/>
+    <attr name="easy_item_left_tv_text_style" format="enum">
+      <enum value="1" name="bold"/>
+      <enum value="1" name="normal"/>
+    </attr>
+    <!--right edt-->
+    <attr name="easy_item_right_edt_hint" format="string"/>
+    <attr name="easy_item_right_edt_hint_color" format="color"/>
+    <attr name="easy_item_right_edt_str" format="string"/>
+    <attr name="easy_item_right_edt_text_size" format="dimension"/>
+    <attr name="easy_item_right_edt_text_color" format="color"/>
+    <attr name="easy_item_right_edt_text_style" format="enum">
+      <enum value="1" name="bold"/>
+    </attr>
+    <attr name="easy_item_right_edt_enable" format="boolean"/>
+    <attr name="easy_item_right_edt_margin_right_iv" format="dimension"/>
+    <attr name="easy_item_right_edt_margin_right_parent" format="dimension"/>
+    <attr name="easy_item_right_edt_width" format="dimension"/>
+    <attr name="easy_item_right_edt_single_line" format="boolean"/>
+    <attr name="easy_item_right_edt_max_lines" format="integer"/>
+    <!--right iv-->
+    <attr name="easy_item_right_iv_size" format="dimension"/>
+    <attr name="easy_item_right_iv_src" format="reference"/>
+    <attr name="easy_item_right_iv_margin_right" format="dimension"/>
+    <!--lien top-->
+    <attr name="easy_item_line_top_visible" format="boolean"/>
+    <attr name="easy_item_line_top_margin_left" format="dimension"/>
+    <attr name="easy_item_line_top_margin_right" format="dimension"/>
+    <attr name="easy_item_line_top_height" format="dimension"/>
+    <attr name="easy_item_line_top_color" format="color"/>
+    <attr name="easy_item_line_top_dash_width" format="dimension"/>
+    <attr name="easy_item_line_top_dash_gap" format="dimension"/>
+    <!--line bottom-->
+    <attr name="easy_item_line_bottom_visible" format="boolean"/>
+    <attr name="easy_item_line_bottom_margin_left" format="dimension"/>
+    <attr name="easy_item_line_bottom_margin_right" format="dimension"/>
+    <attr name="easy_item_line_bottom_height" format="dimension"/>
+    <attr name="easy_item_line_bottom_color" format="color"/>
+    <attr name="easy_item_line_bottom_dash_width" format="dimension"/>
+    <attr name="easy_item_line_bottom_dash_gap" format="dimension"/>
+    <!--other-->
+    <attr name="easy_item_pressed_color" format="color"/>
+  </declare-styleable>
+
+</resources>
